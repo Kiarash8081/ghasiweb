@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /data/
+Disallow: /messages.php
+Disallow: /contact.php
+Disallow: /background.php
+Disallow: /save.php
+Disallow: /analytics.php
+
+Sitemap: https://mojdeweb.ir/sitemap.xml

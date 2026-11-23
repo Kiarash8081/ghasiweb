@@ -1,0 +1,28 @@
+DirectoryIndex index.php index.html
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://mojdeweb.ir%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.mojdeweb\.ir$ [NC]
+RewriteRule ^ https://mojdeweb.ir%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{THE_REQUEST} \s/+index\.(php|html)[?\s] [NC]
+RewriteRule ^index\.(php|html)$ / [R=301,L]
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  <FilesMatch "\.(js|css|woff2|webp|svg|png|jpg|jpeg|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html|php)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>

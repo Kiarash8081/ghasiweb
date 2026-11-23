@@ -1,0 +1,67 @@
+import { useEffect, useState } from "react";
+
+export default function Loader({ onDone }: { onDone: () => void }) {
+  const [done, setDone] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDone(true);
+      setTimeout(onDone, 800);
+    }, 3500);
+    return () => clearTimeout(timer);
+  }, [onDone]);
+
+  return (
+    <div className={"loader" + (done ? " done" : "")}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 24,
+        }}
+      >
+        <div
+          style={{
+            fontSize: 48,
+            fontWeight: 800,
+            letterSpacing: 8,
+            color: "#dc2626",
+            textTransform: "uppercase",
+          }}
+        >
+          Mojde
+        </div>
+        <div
+          style={{
+            width: 300,
+            height: 6,
+            background: "rgba(220,38,38,0.15)",
+            borderRadius: 99,
+            overflow: "hidden",
+          }}
+        >
+          <div
+            style={{
+              height: "100%",
+              width: 0,
+              background: "#dc2626",
+              borderRadius: 99,
+              animation: "fill 3s linear forwards",
+            }}
+          />
+        </div>
+        <p
+          style={{
+            color: "#dc2626",
+            fontSize: 14,
+            letterSpacing: 4,
+            margin: 0,
+          }}
+        >
+          loading
+        </p>
+      </div>
+    </div>
+  );
+}
