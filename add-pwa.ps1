@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
 Write-Host "اضافه کردن PWA..." -ForegroundColor Cyan
@@ -25,8 +25,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'assets/logo.png'],
       manifest: {
-        name: 'Mojde - Kiarash Ghasemian',
-        short_name: 'Mojde',
+        name: 'Paar-web - Kiarash Ghasemian',
+        short_name: 'Paar-web',
         description: 'پورتفولیو و رزومه کیارش قاسمیان',
         theme_color: '#dc2626',
         background_color: '#ffffff',
@@ -114,13 +114,13 @@ $html = @"
     <meta name="description" content="کیارش قاسمیان - طراح و توسعه دهنده سایت | نمونه کارها و خدمات طراحی وب" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Mojde" />
-    <meta property="og:title" content="Mojde - Kiarash Ghasemian" />
+    <meta name="apple-mobile-web-app-title" content="Paar-web" />
+    <meta property="og:title" content="Paar-web - Kiarash Ghasemian" />
     <meta property="og:description" content="سایتی که همان نگاه اول مشتری را نگه می دارد." />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/png" href="./assets/logo.png" />
     <link rel="apple-touch-icon" href="./assets/logo.png" />
-    <title>Mojde - Kiarash Ghasemian</title>
+    <title>Paar-web - Kiarash Ghasemian</title>
   </head>
   <body>
     <div id="root"></div>

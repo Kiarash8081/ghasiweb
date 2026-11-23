@@ -30,7 +30,7 @@ export default function Loader({ onDone }: { onDone: () => void }) {
             textTransform: "uppercase",
           }}
         >
-          Mojde
+          Paar-web
         </div>
         <div
           style={{

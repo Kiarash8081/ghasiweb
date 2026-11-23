@@ -30,8 +30,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'assets/logo.png'],
       manifest: {
-        name: 'Mojde - Kiarash Ghasemian',
-        short_name: 'Mojde',
+        name: 'Paar-web',
+        short_name: 'Paar-web',
         description: 'طراحی سایت، سئو و نمونه کار کیارش قاسمیان',
         theme_color: '#dc2626',
         background_color: '#ffffff',

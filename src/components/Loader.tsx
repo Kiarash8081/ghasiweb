@@ -17,7 +17,7 @@ export default function Loader({ onDone }: LoaderProps) {
 
   return (
     <div className={done ? "loader done" : "loader"}>
-      <div className="loader-logo">Mojde</div>
+      <div className="loader-logo">Paar-web</div>
 
       <div className="loader-laptop">
         <div className="loader-lid">

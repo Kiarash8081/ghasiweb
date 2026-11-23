@@ -9,4 +9,4 @@ Disallow: /background.php
 Disallow: /save.php
 Disallow: /analytics.php
 
-Sitemap: https://mojdeweb.ir/sitemap.xml
+Sitemap: https://kiarash8081.github.io/paar-web/sitemap.xml

@@ -60,7 +60,7 @@ export default function InstallPWA() {
   const labels = {
     fa: {
       title: "نصب اپلیکیشن",
-      desc: "Mojde را روی گوشی نصب کن و مثل یک اپ از آن استفاده کن",
+      desc: "برنامه را روی گوشی نصب کن و مثل یک اپ از آن استفاده کن",
       install: "نصب کن",
       later: "بعدا",
       iosTitle: "نصب روی iPhone",
@@ -68,7 +68,7 @@ export default function InstallPWA() {
     },
     en: {
       title: "Install App",
-      desc: "Install Mojde on your phone and use it like an app",
+      desc: "Install the app on your phone and use it like an app",
       install: "Install",
       later: "Later",
       iosTitle: "Install on iPhone",
@@ -76,7 +76,7 @@ export default function InstallPWA() {
     },
     ar: {
       title: "تثبت التطبق",
-      desc: "ثبت Mojde على هاتفك واستخدمه كتطبق",
+      desc: "ثبت التطبيق على هاتفك واستخدمه كتطبيق",
       install: "تثبت",
       later: "لاحقا",
       iosTitle: "تثبت على iPhone",
@@ -91,7 +91,7 @@ export default function InstallPWA() {
       <div className="pwa-prompt">
         <div className="pwa-prompt-inner">
           <div className="pwa-icon">
-            <img src="./assets/logo.png" alt="Mojde" />
+            <img src="./assets/logo.png" alt="Paar-web" />
           </div>
           <div className="pwa-text">
             <strong>{L.iosTitle}</strong>
@@ -112,7 +112,7 @@ export default function InstallPWA() {
     <div className="pwa-prompt">
       <div className="pwa-prompt-inner">
         <div className="pwa-icon">
-          <img src="./assets/logo.png" alt="Mojde" />
+          <img src="./assets/logo.png" alt="Paar-web" />
         </div>
         <div className="pwa-text">
           <strong>{L.title}</strong>

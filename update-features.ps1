@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
 Write-Host "اضافه کردن قابلیت ها به سایت..." -ForegroundColor Cyan
@@ -44,7 +44,7 @@ function AppInner() {
         <Admak onOpenAdmin={() => setAdminOpen(true)} />
         <header className="site-header">
           <a className="brand" href="#stage">
-            <img src="/assets/logo.png" alt="Mojde" />
+            <img src="/assets/logo.png" alt="Paar-web" />
           </a>
         </header>
         <main id="stage">

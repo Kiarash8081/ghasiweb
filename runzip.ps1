@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 $root = $PSScriptRoot
 if (-not $root) { $root = Split-Path -Parent $MyInvocation.MyCommand.Path }
 $source = Join-Path $root "dist"
-$dest = Join-Path ([Environment]::GetFolderPath("Desktop")) "mojdeweb-cpanel.zip"
+$dest = Join-Path ([Environment]::GetFolderPath("Desktop")) "paar-web-cpanel.zip"
 
 if (-not (Test-Path (Join-Path $source "index.html"))) {
   Write-Error "dist\index.html was not found. Build did not produce the site."
@@ -38,7 +38,7 @@ if (Test-Path $dest) {
   try {
     Remove-Item $dest -Force
   } catch {
-    throw "Could not replace the zip. Close mojdeweb-cpanel.zip if it is open, then run the script again."
+    throw "Could not replace the zip. Close paar-web-cpanel.zip if it is open, then run the script again."
   }
 }
 

@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
 Write-Host "شروع..." -ForegroundColor Cyan
@@ -26,7 +26,7 @@ export default function Loader({ onDone }: LoaderProps) {
 
   return (
     <div className={done ? "loader done" : "loader"}>
-      <div className="loader-logo">Mojde</div>
+      <div className="loader-logo">Paar-web</div>
       <div className="loader-track">
         <div className="loader-fill"></div>
       </div>
@@ -78,9 +78,9 @@ export default function InstallPWA() {
   if (!show || !deferredPrompt) return null;
 
   const labels = {
-    fa: { title: "نصب اپلیکیشن", desc: "Mojde را روی گوشی نصب کن", install: "نصب کن", later: "بعدا" },
-    en: { title: "Install App", desc: "Install Mojde on your phone", install: "Install", later: "Later" },
-    ar: { title: "تثبت التطبق", desc: "ثبت Mojde على هاتفك", install: "تثبت", later: "لاحقا" },
+    fa: { title: "نصب اپلیکیشن", desc: "Paar-web را روی گوشی نصب کن", install: "نصب کن", later: "بعدا" },
+    en: { title: "Install App", desc: "Install Paar-web on your phone", install: "Install", later: "Later" },
+    ar: { title: "تثبت التطبق", desc: "ثبت Paar-web على هاتفك", install: "تثبت", later: "لاحقا" },
   };
   const L = labels[lang] || labels.fa;
 
@@ -88,7 +88,7 @@ export default function InstallPWA() {
     <div className="pwa-prompt">
       <div className="pwa-prompt-inner">
         <div className="pwa-icon">
-          <img src="./assets/logo.png" alt="Mojde" />
+          <img src="./assets/logo.png" alt="Paar-web" />
         </div>
         <div className="pwa-text">
           <strong>{L.title}</strong>
@@ -145,7 +145,7 @@ function AppInner() {
         <Admak onOpenAdmin={() => setAdminOpen(true)} />
         <header className="site-header">
           <a className="brand" href="#stage">
-            <img src="/assets/logo.png" alt="Mojde" />
+            <img src="/assets/logo.png" alt="Paar-web" />
           </a>
         </header>
         <main id="stage">
@@ -222,8 +222,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'assets/logo.png'],
       manifest: {
-        name: 'Mojde - Kiarash Ghasemian',
-        short_name: 'Mojde',
+        name: 'Paar-web - Kiarash Ghasemian',
+        short_name: 'Paar-web',
         description: 'پورتفولیو و رزومه کیارش قاسمیان',
         theme_color: '#dc2626',
         background_color: '#ffffff',
