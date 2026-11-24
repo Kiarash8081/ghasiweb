@@ -1,4 +1,23 @@
 {
   "managed": true,
-  "projects": []
+  "projects": [
+    {
+      "id": "1",
+      "host": "Pvice",
+      "url": "https://pvice.ir",
+      "image": "./assets/pvice.webp"
+    },
+    {
+      "id": "2",
+      "host": "کافه",
+      "url": "https://cafe.ir",
+      "image": "./assets/cafe.webp"
+    },
+    {
+      "id": "3",
+      "host": "ghasi web",
+      "url": "https://kiarash8081.github.io/ghasiweb/",
+      "image": "./assets/logo.webp"
+    }
+  ]
 }
