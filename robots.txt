@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /uploads/
@@ -9,4 +9,4 @@ Disallow: /background.php
 Disallow: /save.php
 Disallow: /analytics.php
 
-Sitemap: https://kiarash8081.github.io/paar-web/sitemap.xml
+Sitemap: https://kiarash8081.github.io/ghasiweb/sitemap.xml
