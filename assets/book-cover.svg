@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 1000" role="img" aria-label="ghasi web book">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a403c"/>
+      <stop offset="50%" stop-color="#1e221f"/>
+      <stop offset="100%" stop-color="#121412"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="1000" fill="url(#g)"/>
+  <rect x="40" y="40" width="620" height="920" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <rect x="70" y="70" width="560" height="860" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</svg>

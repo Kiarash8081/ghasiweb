@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="placeholder photo">
+  <rect width="800" height="1000" fill="#efeae2"/>
+  <rect x="48" y="48" width="704" height="904" fill="none" stroke="#cbbba8" stroke-width="2" stroke-dasharray="10 10"/>
+  <circle cx="400" cy="430" r="78" fill="none" stroke="#cbbba8" stroke-width="3"/>
+  <path d="M250 680c40-90 110-140 150-140s110 50 150 140" fill="none" stroke="#cbbba8" stroke-width="3"/>
+  <text x="400" y="780" text-anchor="middle" fill="#8a7a68" font-family="Georgia, serif" font-size="34">عکس به‌زودی</text>
+  <text x="400" y="830" text-anchor="middle" fill="#a99988" font-family="Georgia, serif" font-size="22">photo coming soon</text>
+</svg>
